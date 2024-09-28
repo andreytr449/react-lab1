@@ -9,7 +9,7 @@ import {lastSideBarElements, sideBarElements} from "@/constants/sidebarData";
 export default function Container() {
     const [isOpen, setIsOpen] = useState<boolean>(true);
     return (
-        <div className={`relative w-72 min-h-screen bg-white rounded-lg flex flex-col justify-between ${isOpen ? 'w-72' : 'w-16' } min-h-screen transition-all duration-300 ease-in-out`}>
+        <div className={`relative min-h-screen bg-white rounded-lg flex flex-col justify-between ${isOpen ? 'w-72' : 'w-16' } min-h-screen transition-all duration-300 ease-in-out`}>
 
             <button className="absolute top-3 right-2 p-2 bg-gray-200 rounded-full hover:bg-gray-300">
                 {isOpen ?
