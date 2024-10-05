@@ -19,7 +19,8 @@ export default function Piano(){
             {Array.from({length: COUNT}).map((_, index) => (
                 <div
                     key={index}
-                    className="cursor-pointer bg-gray-200 w-[150px] h-[434px] rounded-lg flex justify-center items-end transform transition-transform duration-200 active:scale-95"                    onClick={() => playNote(index)}
+                    className="cursor-pointer bg-gray-200 w-[150px] h-[434px] rounded-lg flex justify-center items-end transform transition-transform duration-200 active:scale-95"
+                    onClick={() => playNote(index)}
                 >
                 </div>
             ))}
