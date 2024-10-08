@@ -10,7 +10,7 @@ export default function Square({value, setInputValue, rowIndex, colIndex}: Props
 
     return (
         <div
-            className={`h-20 bg-[#3a3a3c]  flex justify-center items-center border-2 border-[#1c1c1e] text-[#f2f2f7] text-xl ${
+            className={`h-20 bg-[#3a3a3c] text-black flex justify-center items-center border-2 border-[#1c1c1e] text-xl ${
                 value !== null ? "bg-gray-200 font-bold" : "bg-white"
             }`}
         >
